@@ -6,6 +6,7 @@ import JSXAttribute from './component/jsxAttribute';
 import JSXFunction from './component/jsxFunction';
 import JSXFunctionWithContorolStmt from './component/jsxFunction_ControlStmt';
 import BootstrapExample from './component/BootstrapExample';
+import UseStateDemo from './component/useStateHook';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <JSXFunction/>
         <JSXFunctionWithContorolStmt/>
         <BootstrapExample/>
+        <UseStateDemo/>
       </header>
     </div>
   );
